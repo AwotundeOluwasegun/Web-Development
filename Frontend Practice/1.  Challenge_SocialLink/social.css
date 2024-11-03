@@ -15,7 +15,7 @@
 
 .user_card {
   background-color: hsl(0, 0%, 12%);
-  width: 25%;
+  width: 28%;
   padding: 20px;
   margin: auto;
   border-radius: 8px;
@@ -51,7 +51,7 @@ h1 {
   font-weight: 700;
   padding-top: 10px;
 }
-h3 {
+h2 {
   font-size: 16px;
   color: hsl(75, 94%, 57%);
   font-weight: 600;
@@ -99,7 +99,11 @@ p {
 /* !  Desktop Devices */
 @media screen and (max-width: 1199px) {
   .user_card {
-    width: 28%;
+    width: 30%;
+  }
+
+  p {
+    font-size: 12px;
   }
 }
 
@@ -107,18 +111,19 @@ p {
 @media screen and (max-width: 991px) {
   /* !user card style */
   .user_card {
-    width: 40%;
+    width: 45%;
     padding-bottom: 80px;
   }
 
   /* ! user_text style */
-  h3 {
-    font-size: 18px;
+  h2 {
+    font-size: 16px;
     font-weight: 700;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+    color: white;
   }
 
   /* ! user_btn style */
@@ -133,12 +138,12 @@ p {
 @media screen and (max-width: 767px) {
   /* ! User card style */
   .user_card {
-    width: 50%;
+    width: 55%;
     padding-bottom: 40px;
   }
 
   /* !User text style */
-  h3 {
+  h2 {
     font-size: 14px;
     font-weight: 700;
   }
@@ -167,7 +172,7 @@ p {
   h1 {
     font-size: 20px;
   }
-  h3 {
+  h2 {
     font-size: 16px;
     font-weight: 700;
   }
